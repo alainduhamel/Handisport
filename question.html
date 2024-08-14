@@ -22,7 +22,7 @@
 
             if (userAnswer && photoURL) {
                 // Vous devez remplacer [URL_DE_VOTRE_PHOTO] par un lien accessible de la photo
-                const phoneNumber = '1234567890'; // Remplacez par le numéro de téléphone
+                const phoneNumber = '+33670904188'; // Remplacez par le numéro de téléphone
                 const message = encodeURIComponent(`Voici une photo du monument : [URL_DE_VOTRE_PHOTO]\nRéponse : ${userAnswer}`);
                 window.location.href = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`;
             } else {
